@@ -30,5 +30,9 @@ Below the structure of each subfolder:
            ii.issuesTableOpenCommentsDESC.cy.js
            iii.issuesTableOpenCreatedASC.cy.js
            iv.issuesTableOpenCreatedDESC.cy.js
+     2."issues_filters" folder includes test scripts based on the state filters for "Issues list":
+        a)issuesFiltersAll.cy.js
+        b)issuesFiltersClosed.cy.js
+        c)issuesFiltersOpen.cy.js
  
  In the same way, the other two(2) subfolders(pull_requests_list and forks_list) are structured.
