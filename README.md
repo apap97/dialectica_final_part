@@ -8,10 +8,10 @@ Folder "e2e" contains three(3) basic subfolders and one script:
   1. issues_list
   2. pull_requests_list
   3. forks_list
-  4. start.cy.js [Includes basic test cases(Starting from test case 1 to 5 from the test plan)]
+  4. start.cy.js Includes basic test cases(Starting from test case 1 to 5 from the test plan)
   
 Below the structure of each subfolder:
-  A.issues_lists
+ A.issues_lists
      1."issues_filters" folder includes test scripts based on the state filters of <<Issues list>>:
         a)issuesFiltersAll.cy.js
         b)issuesFiltersClosed.cy.js
