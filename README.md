@@ -12,7 +12,7 @@ Folder "e2e" contains three(3) basic subfolders and one script:
   
 Below the structure of each subfolder:
  A.issues_lists
-     1."issues_filters" folder includes test scripts based on the state filters of <<Issues list>>:
+     1."issues_filters" folder includes test scripts based on the state filters for "Issues list":
         a)issuesFiltersAll.cy.js
         b)issuesFiltersClosed.cy.js
         c)issuesFiltersOpen.cy.js
