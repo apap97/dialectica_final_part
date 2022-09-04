@@ -11,12 +11,8 @@ Folder "e2e" contains three(3) basic subfolders and one script:
   4. start.cy.js Includes basic test cases(Starting from test case 1 to 5 from the test plan)
   
 Below the structure of each subfolder:
-     1."issues_filters" folder includes test scripts based on the state filters for "Issues list":
-        a)issuesFiltersAll.cy.js
-        b)issuesFiltersClosed.cy.js
-        c)issuesFiltersOpen.cy.js
         
-     2."issues_table" folder includes test script based on the functionalities of sorting:
+     1."issues_table" folder includes test script based on the functionalities of sorting:
         a) "issues_filter_all" folder contains test scripts about the correct function of ascending and descending sorting when state filter is "All"
            i.issuesTableAllCommentsASC.cy.js
            ii.issuesTableAllCommentsDESC.cy.js
