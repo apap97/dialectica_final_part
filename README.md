@@ -10,7 +10,7 @@ Folder "e2e" contains three(3) basic subfolders and one script:
   3. forks_list
   4. start.cy.js Includes basic test cases(Starting from test case 1 to 5 from the test plan)
   
-Below the structure of each subfolder:
+Below the structure of subfolder "issues_list":
         
      1."issues_table" folder includes test script based on the functionalities of sorting:
         a) "issues_filter_all" folder contains test scripts about the correct function of ascending and descending sorting when state filter is "All"
@@ -19,7 +19,7 @@ Below the structure of each subfolder:
            iii.issuesTableAllCreatedASC.cy.js
            iv.issuesTableAllCreatedDESC.cy.js
           
-        b) "issues_filter_closed" folder contains test scripts about the correct function of ascending and descending sorting when state filter is "Closed"
+        b) "issues_filter_closed" folder includes test scripts about the correct function of ascending and descending sorting when state filter is "Closed"
            i.issuesTableClosedCommentsASC.cy.js
            ii.issuesTableClosedCommentsDESC.cy.js
            iii.issuesTableClosedCreatedASC.cy.js
@@ -30,9 +30,10 @@ Below the structure of each subfolder:
            ii.issuesTableOpenCommentsDESC.cy.js
            iii.issuesTableOpenCreatedASC.cy.js
            iv.issuesTableOpenCreatedDESC.cy.js
+           
      2."issues_filters" folder includes test scripts based on the state filters for "Issues list":
-        a)issuesFiltersAll.cy.js
-        b)issuesFiltersClosed.cy.js
-        c)issuesFiltersOpen.cy.js
+           a)issuesFiltersAll.cy.js
+           b)issuesFiltersClosed.cy.js
+           c)issuesFiltersOpen.cy.js
  
  In the same way, the other two(2) subfolders(pull_requests_list and forks_list) are structured.
