@@ -2,8 +2,6 @@
 
 Repository that includes my test scripts for the part 2 stage of Dialectica's assignment.
 
-========================================================================================================
-
 << Information about the the folder "e2e" >>
 
 Folder "e2e" contains three(3) basic subfolders and one script:
